@@ -1,8 +1,25 @@
 aid: beyond-reach-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beyond-reach-labs.png
 name: Beyond Reach Labs
-description: Beyond Reach Labs is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Beyond Reach Labs is a Brooklyn, New York aerospace company building deployable
+  solar arrays and thermal radiators for spacecraft that expand from compact launch sizes to
+  enormous structures in orbit. Its patented geometry-changing panels grow from the size of a
+  dining table to a football field once deployed, giving satellites, orbital data centers,
+  commercial space stations, and lunar outposts up to 10x more usable power without adding launch
+  mass or volume. Founded by two aerospace engineers, the company is targeting its first in-space
+  demonstration in Q2 2027 and is a Y Combinator portfolio company. Beyond Reach Labs is a
+  hardware manufacturer and does not currently publish a public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/beyond-reach-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +27,37 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Aerospace
+- Space Technology
+- Spacecraft
+- Solar Arrays
+- Thermal Management
+- Satellites
+- Orbital Power
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/beyond-reach-labs-domain-security.yml
+- type: Website
+  url: https://www.beyondreachlabs.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/beyond-reach-labs-inc/
+- type: Twitter
+  url: https://x.com/beyondreachlabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
