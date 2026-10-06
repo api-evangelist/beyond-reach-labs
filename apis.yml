@@ -41,7 +41,7 @@ x-tier-reason: portfolio-lead
 x-no-api-surface: true
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Aerospace
@@ -64,6 +64,8 @@ tags_raw:
 - Hardware
 apis: []
 common:
+- url: https://www.beyondreachlabs.com/news/
+  type: Blog
 - type: DomainSecurity
   url: security/beyond-reach-labs-domain-security.yml
 - type: Website
